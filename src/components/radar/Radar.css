@@ -1,10 +1,10 @@
-.ray__possibility {
+.ray__aboutme {
     display: flex;
     flex-direction: row;
     background-color: #FFFFFF;
 }
 
-.ray__possibility-image {
+.ray__aboutme-image {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -13,12 +13,12 @@
     margin-right: 2rem;
 }
 
-.ray__possibility-image img {
+.ray__aboutme-image img {
     width: 100%;
     height: 100%;
 }
 
-.ray__possibility-content {
+.ray__aboutme-content {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 
-.ray__possibility-content h4 {
+.ray__aboutme-content h4 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -34,11 +34,11 @@
     color: #71E5FF;
 }
 
-.ray__possibility-content h4:last-child {
+.ray__aboutme-content h4:last-child {
     color: #ff8A71;
 }
 
-.ray__possibility-content h1 {
+.ray__aboutme-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;
@@ -46,7 +46,7 @@
     margin: 1rem 0;
 }
 
-.ray__possibility-content p {
+.ray__aboutme-content p {
     color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 400;
@@ -57,26 +57,26 @@
 }
 
 @media screen and (max-width: 950px) {
-    .ray__possibility {
+    .ray__aboutme {
         flex-direction: column;
     }
 
-    .ray__possibility-image {
+    .ray__aboutme-image {
         margin: 1rem 0;
     }
 
-    .ray__possibility-image img {
+    .ray__aboutme-image img {
         width: unset;
         height: unset;
     }
 
-    .ray__possibility-content {
+    .ray__aboutme-content {
         margin-top: 2rem;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .ray__possibility-image img {
+    .ray__aboutme-image img {
         width: 50%;
         height: 50%;
         left: 0;

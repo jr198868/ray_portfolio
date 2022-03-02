@@ -1,5 +1,5 @@
 import React from 'react';
-import possibilityImage from '../../assets/kkk.png';
+import aboutmeImage from '../../assets/kkk.png';
 import './Radar.css';
 
 import { LineChart, Line, RadialBar, YAxis, XAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
@@ -39,10 +39,10 @@ const data = [
 
 
 
-const Possibility = () => (
-  <div className="ray__possibility section__padding" id="possibility">
+const aboutme = () => (
+  <div className="ray__aboutme section__padding" id="aboutme">
 
-	<div className="ray__possibility-image">
+	<div className="ray__aboutme-image">
 
 		<RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={data}>
 			<PolarGrid />
@@ -53,7 +53,7 @@ const Possibility = () => (
 
     </div>
 
-    <div className="ray__possibility-content">
+    <div className="ray__aboutme-content">
       <h4>Request Early Access to Get Started</h4>
       <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
       <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
@@ -62,5 +62,5 @@ const Possibility = () => (
   </div>
 );
 
-export default Possibility;
+export default aboutme;
 

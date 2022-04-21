@@ -1,17 +1,18 @@
 import React from "react";
 import './Contact.css';
-import dinosaur1 from "../../assets/dinosaur1.jpg";
-// import dinosaur2 from "../../assets/dinosaur2.jpg";
-// import dinosaur3 from "../../assets/dinosaur3.jpg";
-// import dinosaur4 from "../../assets/dinosaur4.jpg";
-// import dinosaur5 from "../../assets/dinosaur5.jpg";
-// import dinosaur6 from "../../assets/dinosaur6.jpg";
+// import background from "../../assets/dinosaur1.jpg";
+// import background from "../../assets/dinosaur2.jpg";
+// import background from "../../assets/dinosaur3.jpg";
+// import background from "../../assets/dinosaur4.jpg";
+// import background from "../../assets/dinosaur5.jpg";
+// import background from "../../assets/dinosaur6.jpg";
+import background from "../../assets/planet.jpeg";
 
 class Contact extends React.Component {
   render() {
     return (
       <div className="paralax-mf footer-paralax bg-image sect-mt4 route"
-         style={{ backgroundImage: "url(" + dinosaur1 + ")" }}
+         style={{ backgroundImage: "url(" + background + ")" }}
       >
         <div id="contact" className="contactcontainer">
 

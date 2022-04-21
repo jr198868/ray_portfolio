@@ -3,18 +3,18 @@
   padding: 3rem 1.25rem;
   display: flex-start;
   position: relative;
-  margin-bottom: 8rem;
+  margin-bottom: 15rem;
   margin-top: 1rem;
   z-index: 2;
 }
 
 .form-group {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 
 .contactform {
-  padding-top: 5px;
+  padding-top: 20px;
   padding-bottom: 10px;
   width: 300px;
 }

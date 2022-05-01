@@ -10,8 +10,8 @@ import poker from '../../assets/2021poker.png';
 import project2 from '../../assets/project2.png';
 import project3 from '../../assets/project3.png';
 import project4 from '../../assets/project4.png';
-import project5 from '../../assets/project5.png';
-import project6 from '../../assets/project6.png';
+// import project5 from '../../assets/project5.png';
+// import project6 from '../../assets/project6.png';
 
 class Techstack extends React.Component {
     render() {
@@ -166,8 +166,8 @@ class Blog extends React.Component {
                         <MyProject src={project2} href="" alt="project2">project2</MyProject>
                         <MyProject src={project3} href="" alt="project3">project3</MyProject>
                         <MyProject src={project4} href="" alt="project4">project4</MyProject>
-                        <MyProject src={project5} href="" alt="project5">project5</MyProject>
-                        <MyProject src={project6} href="" alt="project6">project6</MyProject>
+                        {/* <MyProject src={project5} href="" alt="project5">project5</MyProject>
+                        <MyProject src={project6} href="" alt="project6">project6</MyProject> */}
                       
                     </MyProjectSection>
                     <ProjectParagraph>

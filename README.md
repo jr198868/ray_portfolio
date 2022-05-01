@@ -88,9 +88,9 @@ ray_portfolio/
 ```sh
 $ git clone git@github.com:jr198868/ray_portfolio.git 
 
-$ npm install package.json
-
 $ cd ray_portfolio/
+
+$ npm install package.json
 
 $ npm start
 ```

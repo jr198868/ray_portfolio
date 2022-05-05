@@ -9,7 +9,9 @@ import Javascript from '../../assets/js.png';
 import poker from '../../assets/2021poker.png';
 import project2 from '../../assets/project2.png';
 import project3 from '../../assets/project3.png';
-import project4 from '../../assets/project4.png';
+import chipotlepolka from '../../assets/chipotlepolka.png';
+import Python from '../../assets/Python.png'
+// import project4 from '../../assets/project4.png';
 // import project5 from '../../assets/project5.png';
 // import project6 from '../../assets/project6.png';
 
@@ -165,7 +167,14 @@ class Blog extends React.Component {
                         </MyProject>
                         <MyProject src={project2} href="" alt="project2">project2</MyProject>
                         <MyProject src={project3} href="" alt="project3">project3</MyProject>
-                        <MyProject src={project4} href="" alt="project4">project4</MyProject>
+                        <MyProject src={chipotlepolka} href="" alt="chipotlepolka">
+                            chipotlepolka
+                            <div className = 'Techstack__container' style = {{display: 'flex'}}>
+                                <Techstack src={Python} alt="HTML">Python</Techstack>
+                                <Techstack src={Javascript} alt="HTML">Javascript</Techstack>
+                            </div>
+                            
+                        </MyProject>
                         {/* <MyProject src={project5} href="" alt="project5">project5</MyProject>
                         <MyProject src={project6} href="" alt="project6">project6</MyProject> */}
                       

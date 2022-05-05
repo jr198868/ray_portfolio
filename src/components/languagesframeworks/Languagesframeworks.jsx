@@ -69,8 +69,9 @@ class Languagesframeworks extends React.Component {
 
         const Section = styled.div`
             height: 100%;
-            background-color: rgb(32, 31, 65);
+            background-color: rgb(0, 31, 65);
         `;
+            //background-color: rgb(178, 34, 34)
 
         const Container = styled.section`
             padding: 30px;
@@ -78,7 +79,7 @@ class Languagesframeworks extends React.Component {
 
         const Title = styled.h1`
             color: #FFFFFF;
-            background-color: rgb(32, 31, 65);
+            background-color: rgb(0, 34, 65);
             text-align: center;
             padding: 20px;
             font-family: var(--font-family);

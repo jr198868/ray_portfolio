@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
 import Avatar from "@material-ui/core/Avatar";
-import LinkedIn from '../../assets/LinkedIn.png';
 import ReactLogo from '../../assets/react.png';
 import Html from '../../assets/html.png';
 import Css from '../../assets/css.png';
@@ -10,7 +9,9 @@ import poker from '../../assets/2021poker.png';
 import project2 from '../../assets/project2.png';
 import project3 from '../../assets/project3.png';
 import chipotlepolka from '../../assets/chipotlepolka.png';
-import Python from '../../assets/Python.png'
+import Python from '../../assets/Python.png';
+import pandas from '../../assets/pandas.png';
+import Jupyter from '../../assets/Jupyter.png';
 // import project4 from '../../assets/project4.png';
 // import project5 from '../../assets/project5.png';
 // import project6 from '../../assets/project6.png';
@@ -38,7 +39,7 @@ class Techstack extends React.Component {
             
             max-width: 40px;
             border-radius: 6px;
-            height: auto;
+            height: 40px;
             width: 40px;
             line-height: 1.6;
             margin: 5px;
@@ -154,25 +155,36 @@ class Blog extends React.Component {
                 <ProjectsName>My Projects</ProjectsName>
                 <Container>
                     <MyProjectSection>
-                        <MyProject src={poker} href="https://github.com/jr198868/2021_christmas_poker" alt="Domoviz">
+                        <MyProject src={poker} href = "https://github.com/jr198868/2021_christmas_poker" alt="poker">
                             2021 Christmas Poker
                             <p style = {{fontSize :'12px'}}>A romantic project for Wency Lee</p>
-                            <div className = 'Techstack__container' style = {{display: 'flex'}}>
-                                <Techstack src={ReactLogo} alt="HTML">ReactJS</Techstack>
-                                <Techstack src={Html} alt="HTML">HTML</Techstack>
-                                <Techstack src={Css} alt="HTML">CSS</Techstack>
-                                <Techstack src={Javascript} alt="HTML">Javascript</Techstack>
-                            </div>
-                            
+                                <div className = 'Techstack__container' style = {{display: 'flex'}}>
+                                    <Techstack src={ReactLogo} alt="HTML">ReactJS</Techstack>
+                                    <Techstack src={Html} alt="HTML">HTML</Techstack>
+                                    <Techstack src={Css} alt="HTML">CSS</Techstack>
+                                    <Techstack src={Javascript} alt="HTML">Javascript</Techstack>
+                                </div>
                         </MyProject>
-                        <MyProject src={project2} href="" alt="project2">project2</MyProject>
-                        <MyProject src={project3} href="" alt="project3">project3</MyProject>
-                        <MyProject src={chipotlepolka} href="" alt="chipotlepolka">
+
+                        <MyProject src={project2} href = "" alt="project2">project2
+                                <div className = 'Techstack__container' style = {{display: 'flex'}}>
+                                    <Techstack src={ReactLogo} alt="HTML">ReactJS</Techstack>
+                                    <Techstack src={Html} alt="HTML">HTML</Techstack>
+                                    <Techstack src={Css} alt="HTML">CSS</Techstack>
+                                    <Techstack src={Javascript} alt="HTML">Javascript</Techstack>
+                                </div>
+                        </MyProject>
+
+                        <MyProject src={project3} href = "" alt="project3">project3</MyProject>
+
+                        <MyProject src={chipotlepolka} href = "https://github.com/jr198868/chipotlepolka" alt="chipotlepolka">
                             chipotlepolka
-                            <div className = 'Techstack__container' style = {{display: 'flex'}}>
-                                <Techstack src={Python} alt="HTML">Python</Techstack>
-                                <Techstack src={Javascript} alt="HTML">Javascript</Techstack>
-                            </div>
+                            <p style = {{fontSize :'12px'}}>A python library for data science</p>
+                                <div className = 'Techstack__container' style = {{display: 'flex'}}>
+                                    <Techstack src={Python} alt="Python">Python</Techstack>
+                                    <Techstack src={pandas} alt="pandas">pandas</Techstack>
+                                    <Techstack src={Jupyter} alt="Jupyter">JupyterLab</Techstack>
+                                </div>
                             
                         </MyProject>
                         {/* <MyProject src={project5} href="" alt="project5">project5</MyProject>

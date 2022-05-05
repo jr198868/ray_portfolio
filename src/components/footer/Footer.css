@@ -2,7 +2,8 @@
 .footer{
     text-align: center;
     padding: 2rem;
-    background-color: rgb(32, 31, 65);
+    /* background-color: rgb(32, 31, 65); */
+    background-color: rgb(0, 31, 65);
     color: #FFFFFF;
     position: relative; 
     z-index: 2;

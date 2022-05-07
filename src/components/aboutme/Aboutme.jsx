@@ -1,6 +1,69 @@
 import React from 'react';
+import styled from "styled-components";
 import aboutmeImage from '../../assets/aboutme.png';
 import './Aboutme.css';
+import umd from '../../assets/umd.png';
+import hkust from '../../assets/hkust.png';
+import utah from '../../assets/utah.png';
+
+class School extends React.Component {
+  render() {
+
+      const Tag = styled.div`
+         
+          border-radius: 6px;
+          
+          margin: .5rem;
+          box-sizing: border-box;
+          text-align: left;
+          width: 120px;
+          :hover {
+              transform: translateY(-1px);
+              
+              transition: all 200ms ease;
+          }
+      `;
+
+      const Logo = styled.img`
+          border-radius: 6px;
+          height: 100px;
+          width: 100px;
+          line-height: 1.6;
+          box-shadow: 0 0.2rem 0.5rem;
+ 
+      `;
+
+      const Title = styled.h3`
+          left: 20;
+          font-size: 26px;
+          margin-top: 0px;
+      `;
+
+      return (
+
+          <div class='about_me_wrapper'>
+          <div class='about_me_row'>
+            <div class='about_me_colum'>
+              <Tag>
+                  <Logo src={this.props.src} alt={this.props.alt}/>
+              </Tag>
+            </div>
+            <div class='about_me_column'>
+              <h2>
+                {this.props.children}
+              </h2>
+            </div>
+          </div>
+        </div>
+      )
+  }
+}
+
+
+
+
+
+
 
 const Aboutme = () => (
   <div className="ray__aboutme section__padding" id="aboutme">
@@ -10,7 +73,7 @@ const Aboutme = () => (
     </div>
 
     <div className="ray__aboutme-content">
-      <h1>About Me</h1>
+      <div className = "ray_title">About Me</div>
       
       <div className = 'ray__aboutme_biography'>
         I'm a USA based web developer, currently employed by a t-cell immunotherapy startup company 
@@ -32,30 +95,45 @@ const Aboutme = () => (
       </div> */}
       <br />
 
-      <h2>Education</h2><br />
-      <h2>
-        University of Maryland, College Park   
-      </h2>
-      <div className = 'ray__aboutme_education'>
-        PhD-Environmental Engineering
-      </div>
-      <h2>                                                          
-        Hong Kong University of Science and Technology  
-      </h2>
-      <div className = 'ray__aboutme_education'>
-        MPhil-Civil Engineering 
-      </div>
-      <h2>              
-        University of Utah                                             
-      </h2>
-      <div className = 'ray__aboutme_education'>
-        MS-Environmental Engineering
-      </div>
+      <div className = "ray_title">Education</div><br />
+        <div left duration={1000}>
+          <School src={umd}>
+            University of Maryland, College Park<br />
+            PhD-Environmental Engineering
+            <div className = "ray_title_time">
+              September 2015 - December 2019
+            </div>
+          </School>
+        </div>
+                                                          
+        <School src={hkust}>
+            Hong Kong University of Science and Technology<br />
+            MPhil-Civil Engineering<br />
+            <div className = "ray_title_time">
+              September 2012 - September 2014
+            </div>
+        </School>  
+
+          
+        <School src={utah}>
+            University of Utah<br />
+            MS-Environmental Engineering
+            <div className = "ray_title_time">
+              September 2010 - September 2012
+            </div>
+        </School>                                         
       <br />
        
       <a href="https://github.com/jr198868" className="resume-download" target="_blank">Check My Resume</a>
 
     </div>
+
+
+
+    
+
+
+
   </div>
 );
 

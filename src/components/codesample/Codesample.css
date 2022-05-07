@@ -1,0 +1,22 @@
+.ray_codesample {
+    /* display: flex; */
+    /* flex-direction: row; */
+    background-color: #FFFFFF;
+}
+.ray_codesample_title {
+    text-align: center;
+    font-family: var(--font-family);
+    padding: 20px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 0 0;
+}
+
+.ray_sandbox {
+    align-items: center;
+    margin-left: 8%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+}

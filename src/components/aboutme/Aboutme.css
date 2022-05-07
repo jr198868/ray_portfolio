@@ -4,6 +4,43 @@
     background-color: #FFFFFF;
 }
 
+.ray_title {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 0 0;
+}
+
+
+.about_me_wrapper {
+    background-color: #FFFFFF;
+  }
+  
+.about_me_row {
+    display: flex;
+    font-family: var(--font-family);
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.about_me_column {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.ray_title_time {
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: rgb(71, 70, 70);
+}
+
+
 .ray__aboutme-image {
     flex: 1;
     display: flex;
@@ -27,12 +64,16 @@
 }
 
 .ray__aboutme_biography {
+    font-family: var(--font-family);
+    font-weight: 450;
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .ray__aboutme_education {
+    font-family: var(--font-family);
+    font-weight: 450;
     font-size: 20px;
     padding-bottom: 10px;
 }

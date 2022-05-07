@@ -61,8 +61,6 @@ class Techstack extends React.Component {
 
 
 
-
-
 class MyProject extends React.Component {
     render() {
 
@@ -86,7 +84,7 @@ class MyProject extends React.Component {
         const Image = styled.img`
             padding: 10px 10px 0px 10px;
             border-radius: 6px;
-            height: auto;
+            height: 230px;
             width: 400px;
             line-height: 1.6;
 

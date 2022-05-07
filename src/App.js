@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import Myproject from './components/myproject/Myproject';
 import Footer from './components/footer/Footer';
 import Aboutme from './components/aboutme/Aboutme';
+import Codesample from './components/codesample/Codesample';
 import Languagesframeworks from './components/languagesframeworks/Languagesframeworks';
 
 
@@ -19,6 +20,7 @@ function App() {
       <div>
         <Aboutme />
         <Languagesframeworks />
+        <Codesample />
         <Myproject />
         <Contact />
         <Footer />

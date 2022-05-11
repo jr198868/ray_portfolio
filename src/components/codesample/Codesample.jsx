@@ -5,7 +5,7 @@ import './Codesample.css';
 export default function Codesample() {
   return (
     <div className = "ray_codesample" id="codesample">
-      <h1 className = "ray_codesample_title">My Code Sample</h1>
+      <h1 className = "ray_codesample_title">My Code Demo</h1>
       <div className = 'ray__aboutme_biography'> 
         I have obtained two master's degrees from the University of Utah and Hong Kong University of Science and Technology. 
         After that, I was graduating from the Department of Civil and Environmental Engineering at the University of Maryland, College Park in 2019. 

@@ -84,7 +84,8 @@ const Aboutme = () => (
 
       {/* <div>
         I have obtained two master's degrees from the University of Utah and Hong Kong University of Science and Technology. 
-        After that, I was graduating from the Department of Civil and Environmental Engineering at the University of Maryland, College Park in 2019.
+        After that, I was graduating from the Department of Civil and Environmental Engineering at the University of Maryland, 
+        College Park in 2019.
       </div> */}
 
       {/* <div className = 'ray__aboutme_biography'> 

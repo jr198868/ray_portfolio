@@ -13,6 +13,30 @@
     margin: 0 0;
 }
 
+@media screen and (min-width: 1024px) {
+    .ray_title {
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 45px;
+        margin: 0 0;
+    }
+}
+
+.ray_aboutme_school {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ray_aboutme_school {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
 
 .about_me_wrapper {
     background-color: #FFFFFF;
@@ -27,7 +51,7 @@
 }
   
 .about_me_column {
-    padding-top: 15px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -36,7 +60,7 @@
 
 .ray_title_time {
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(71, 70, 70);
 }
 
@@ -45,7 +69,7 @@
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
     margin-right: 2rem;
 }
 
@@ -68,6 +92,16 @@
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ray__aboutme_biography {
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 .ray__aboutme_education {
@@ -229,8 +263,8 @@
 
 @media screen and (max-width: 1024px) {
     .ray__aboutme-image img {
-        width: 50%;
-        height:50%;
+        width: 80%;
+        height:80%;
         left: 0;
     }
 }
@@ -248,5 +282,13 @@
         width: 50%;
         height: 50%;
         left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about_me_colum {
+        height: 100px;
+        width: 100px;
+
     }
 }

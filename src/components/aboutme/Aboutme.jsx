@@ -12,14 +12,12 @@ class School extends React.Component {
       const Tag = styled.div`
          
           border-radius: 6px;
-          
           margin: .5rem;
           box-sizing: border-box;
           text-align: left;
           width: 120px;
           :hover {
               transform: translateY(-1px);
-              
               transition: all 200ms ease;
           }
       `;
@@ -30,13 +28,21 @@ class School extends React.Component {
           width: 100px;
           line-height: 1.6;
           box-shadow: 0 0.2rem 0.5rem;
+          @media (max-width: 425px) {
+            top: 15px;
+            height: 70px;
+            width: 70px;
+            
+        }
  
       `;
 
       const Title = styled.h3`
           left: 20;
-          font-size: 26px;
-          margin-top: 0px;
+          font-size: 24px;
+          margin-top: 2px;
+            
+        }
       `;
 
       return (
@@ -49,19 +55,15 @@ class School extends React.Component {
               </Tag>
             </div>
             <div class='about_me_column'>
-              <h2>
+              <div className = "ray_aboutme_school">
                 {this.props.children}
-              </h2>
+              </div>
             </div>
           </div>
         </div>
       )
   }
 }
-
-
-
-
 
 
 

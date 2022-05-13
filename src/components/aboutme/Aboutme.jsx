@@ -79,8 +79,12 @@ const Aboutme = () => (
       
       <div className = 'ray__aboutme_biography'>
         I'm a USA based web developer, currently employed by a t-cell immunotherapy startup company in Pennsylvania 
-        as a bioinformatics research associate/back-end development engineer.  I have 4 years of experience in data science, 
-        2 years of experience in bioinformatics pipeline development, and 1.5 years of experience in back-end development.
+        as a bioinformatics research associate/back-end development engineer.        
+        I have obtained two master's degrees from the University of Utah and Hong Kong University of Science and Technology. 
+        After that, I was graduating from the Department of Civil and Environmental Engineering at the University of Maryland, 
+        College Park in 2019. 
+        I have 4 years of experience in data science, 2 years of experience in bioinformatics pipeline development, 
+        and 1.5 years of experience in back-end development.
       </div>
       <br />
 

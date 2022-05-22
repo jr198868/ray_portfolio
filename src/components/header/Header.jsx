@@ -11,7 +11,7 @@ const Header = () => {
     <div className="ray__header section__padding" id="home">
         <div className="ray__header-content">
           <h1 className="gradient__text">Raymond Jing</h1>
-          <h1 className="gradient__text">A web developer and data scientist based in USA</h1>
+          <h1 className="gradient__text">A web developer and bioinformatics data scientist based in USA</h1>
 
           <div className="ray__header-content__input">
             <div className="Contactlogo">

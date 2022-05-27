@@ -42,8 +42,8 @@ class Language extends React.Component {
             
             max-width: 80px;
             border-radius: 6px;
-            height: auto;
-            width: 120px;
+            height: 90px;
+            width: autoo;
             line-height: 1.6;
             margin: 5px;
         `;

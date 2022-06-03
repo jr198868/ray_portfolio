@@ -5,7 +5,8 @@
 }
 .ray_codesample_title {
     text-align: center;
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
+    font-family: "Times New Roman";
     padding: 20px;
     font-weight: 800;
     font-size: 34px;

@@ -9,6 +9,8 @@ import Chart from 'chart.js/auto';
 
 
 
+
+
 export default function Arithmetic() {
     const [message_initial, setMessage_initial] = useState('');
     const [message_difference, setMessage_difference] = useState('');
@@ -78,6 +80,13 @@ export default function Arithmetic() {
 
     return (
       <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
+          }}
+        >
         <Box
           component="form"
           sx={{
@@ -92,8 +101,16 @@ export default function Arithmetic() {
           <TextField id="number" label="The number of term" variant="filled" onChange={handleChange_number} value={message_number}/>
 
         </Box>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
+          }}
+        >
         <Button variant="contained" onClick={resetInputField} >Reset</Button><br />
-
+        </div>
         <div className = "barchart">
           <Bar
             data={state}

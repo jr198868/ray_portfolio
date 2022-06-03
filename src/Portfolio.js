@@ -9,21 +9,26 @@ import Footer from './components/footer/Footer';
 import Aboutme from './components/aboutme/Aboutme';
 import Codesample from './components/codesample/Codesample';
 import Languagesframeworks from './components/languagesframeworks/Languagesframeworks';
-import Codedemo1 from './Codedemo1';
-import Portfolio from '../src/Portfolio'
 
-function App() {
+
+
+function Portfolio() {
   return (
     <div className="App">
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Portfolio />}></Route>
-                <Route path="/Portfolio" element={<Portfolio />}></Route>
-                <Route path="/Codedemo1" element={<Codedemo1 />}></Route>
-            </Routes>
-        </BrowserRouter>
+      <div className = 'gradient__bg'> 
+        <Navbar />
+        <Header />
+      </div>
+      <div>
+        <Aboutme />
+        <Languagesframeworks />
+        <Codesample />
+        <Myproject />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Portfolio;

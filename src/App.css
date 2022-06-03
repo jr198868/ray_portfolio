@@ -5,9 +5,9 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background: var(--color-bg);
-}
+} */
 
 a {
   color: unset;

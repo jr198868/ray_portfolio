@@ -1,0 +1,36 @@
+.description {
+  font-size: 20px;
+}
+
+/* .img-brightness {
+  display: inline-block;
+} */
+
+.img-brightness:hover {
+  opacity: .5;
+}
+
+.cardname-brightness {
+  display: inline-block;
+}
+
+.cardname-brightness:hover {
+  background: #888888;
+}
+
+.start-brightness {
+  display: inline-block;
+
+}
+.start-brightness:hover {
+  background: #888888;
+}
+
+.text-brightness {
+  display: inline-block;
+}
+
+.text-brightness:hover {
+  background: #888888;
+}
+

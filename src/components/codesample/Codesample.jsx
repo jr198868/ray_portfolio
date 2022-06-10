@@ -23,27 +23,51 @@ export default function Codesample() {
   return (
     <div className = "ray_codesample" id="codesample">
       <h1 className = "ray_codesample_title">My Code Demo</h1>
+        <div className = 'ray__aboutme_biography'> 
+          Code Demo 1: Virtualize Arithmetic Progression <br /><br />
+          This is a simple example that the users can get computational results from backend through sending a frontend request to the backend API.
+          Since I have done a lot of similar tasks during my daily work. In this case, the users can virtualize arithmetic progression by typing the initial term, the common difference, and the number of term.
+        </div>
+        <ProjectParagraph>
+          <div className = 'ray__aboutme_biography'> 
+            For the execution results, please check {" "}
+          <a href="/Codedemo1" target="_blank" rel="noopener noreferrer">
+            here
+          </a> 
+          </div>
+        </ProjectParagraph>
+        <iframe src="https://codesandbox.io/embed/hardcore-dew-cz2f28?fontsize=14&hidenavigation=1&theme=dark"   
+            className = "ray_sandbox"
+            style = {{width: "85%", height: 720}}
+            title = "bitter-sun-gnl2rd"
+            allow = "accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+            sandbox = "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+          ></iframe>
+
+
       <div className = 'ray__aboutme_biography'> 
-        Code Demo 1: Virtualize Arithmetic Progression <br /><br />
-        This is a simple example that the users can get computational results from backend through sending a frontend request to the backend API.
-        Since I have done a lot of similar tasks during my daily work.
+        Code Demo 2: React Custom Design Card <br /><br />
+        React Custom Design Card consists of various elements like card photo area,  card name,  star rating, and text box. 
+        It can construct different card as based on different requirements. Hover over the card to see each component instruction.
       </div>
       <ProjectParagraph>
-        <div className = 'ray__aboutme_biography'> 
-          For the execution results, please check {" "}
-
-        <a href="/Codedemo1" target="_blank" rel="noopener noreferrer">
-          here
-        </a> 
-        </div>
+          <div className = 'ray__aboutme_biography'> 
+            For the execution results, please check {" "}
+          <a href="/Codedemo2" target="_blank" rel="noopener noreferrer">
+            here
+          </a> 
+          </div>
       </ProjectParagraph>
-      <iframe src="https://codesandbox.io/embed/hardcore-dew-cz2f28?fontsize=14&hidenavigation=1&theme=dark"   
-          className = "ray_sandbox"
-          style = {{width: "85%", height: 720}}
-          title = "bitter-sun-gnl2rd"
-          allow = "accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-          sandbox = "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-        ></iframe>
+
+      <iframe src="https://codesandbox.io/embed/blissful-cerf-liq427?fontsize=14&hidenavigation=1&theme=dark"
+        className = "ray_sandbox"
+        style = {{width: "85%", height: 720}}
+        title = "blissful-cerf-liq427"
+        allow = "accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+        sandbox = "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+      ></iframe>
+
+
     </div>
     
   );

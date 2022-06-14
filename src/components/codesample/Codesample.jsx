@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 const ProjectParagraph = styled.p`
-            color: #C750C0; 
+            color: #000000; 
             text-align: left;
             font-size: 1.5rem;
             margin: 0 auto;
@@ -38,7 +38,7 @@ export default function Codesample() {
         </ProjectParagraph>
         <iframe src="https://codesandbox.io/embed/hardcore-dew-cz2f28?fontsize=14&hidenavigation=1&theme=dark"   
             className = "ray_sandbox"
-            style = {{width: "85%", height: 720}}
+            style = {{width: "85%", height: 820}}
             title = "bitter-sun-gnl2rd"
             allow = "accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
             sandbox = "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
@@ -61,12 +61,33 @@ export default function Codesample() {
 
       <iframe src="https://codesandbox.io/embed/blissful-cerf-liq427?fontsize=14&hidenavigation=1&theme=dark"
         className = "ray_sandbox"
-        style = {{width: "85%", height: 720}}
+        style = {{width: "85%", height: 820}}
         title = "blissful-cerf-liq427"
         allow = "accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
         sandbox = "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
       ></iframe>
 
+
+      <div className = 'ray__aboutme_biography'> 
+        Code Demo 3: 3D-effect css Card <br /><br />
+
+        <ProjectParagraph>
+          <div className = 'ray__aboutme_biography'> 
+            Source code:<a href = "https://redstapler.co/css-3d-card-des..." target="_blank"> https://redstapler.co/css-3d-card-des...</a>
+          </div>
+          <div className = 'ray__aboutme_biography'>
+            Card Layout Tutorial: <a href = "https://youtu.be/cwC1qdPWBKo" target="_blank"> https://youtu.be/cwC1qdPWBKo </a>
+          </div>
+        </ProjectParagraph>
+      </div>
+
+      <iframe src="https://codesandbox.io/embed/goofy-chebyshev-hnjldb?fontsize=14&hidenavigation=1&theme=dark"
+        className = "ray_sandbox"
+        style = {{width: "85%", height: 750}}
+        title="goofy-chebyshev-hnjldb"
+        allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+        sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+      ></iframe>
 
     </div>
     

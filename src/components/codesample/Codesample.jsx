@@ -70,12 +70,12 @@ export default function Codesample() {
 
       <div className = 'ray__aboutme_biography'> 
         Code Demo 3: 3D-effect css Card <br /><br />
+        This project was build by using Mikulew's 3D Card RGB Effect project. 
+        The smooth 3D tilt animation was achieved by the library forked from Tilt.js (jQuery version).
 
         <ProjectParagraph>
           <div className = 'ray__aboutme_biography'> 
-            Source code:<a href = "https://redstapler.co/css-3d-card-des..." target="_blank"> https://redstapler.co/css-3d-card-des...</a>
-          </div>
-          <div className = 'ray__aboutme_biography'>
+            Source code:<a href = "https://github.com/Mikulew/css-3d-card-rgb-effect" target="_blank"> https://redstapler.co/css-3d-card-des...</a><br />
             Card Layout Tutorial: <a href = "https://youtu.be/cwC1qdPWBKo" target="_blank"> https://youtu.be/cwC1qdPWBKo </a>
           </div>
         </ProjectParagraph>

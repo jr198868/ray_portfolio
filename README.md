@@ -17,6 +17,9 @@ ray_portfolio/
 └── src
     ├── App.css
     ├── App.js
+    ├── Codedemo1.js
+    ├── Codedemo2.js
+    ├── Portfolio.js
     ├── assets
     │   ├── 2021poker.png
     │   ├── Anaconda.png
@@ -36,22 +39,33 @@ ray_portfolio/
     │   ├── R.png
     │   ├── aboutme.png
     │   ├── ai.jpg
+    │   ├── chipotlepolka.png
     │   ├── css.png
     │   ├── dinosaur1.jpg
     │   ├── gatsby.png
+    │   ├── hkust.png
     │   ├── html.png
     │   ├── jquery.png
     │   ├── js.png
+    │   ├── mega.jpg
+    │   ├── op.jpg
+    │   ├── pandas.png
+    │   ├── planet.jpeg
     │   ├── project2.png
     │   ├── project3.png
     │   ├── project4.png
     │   ├── project5.png
     │   ├── project6.png
-    │   └── react.png
+    │   ├── react.png
+    │   ├── umd.png
+    │   └── utah.png
     ├── components
     │   ├── aboutme
     │   │   ├── Aboutme.css
     │   │   └── Aboutme.jsx
+    │   ├── codesample
+    │   │   ├── Codesample.css
+    │   │   └── Codesample.jsx
     │   ├── contact
     │   │   ├── Contact.css
     │   │   └── Contact.jsx
@@ -77,9 +91,36 @@ ray_portfolio/
     │       └── Radar.jsx
     ├── index.css
     ├── index.js
-    └── reportWebVitals.js
+    ├── portfolio_code_demo1
+    │   ├── arithmetic
+    │   │   ├── Arithmetic.css
+    │   │   └── Arithmetic.jsx
+    │   ├── description
+    │   │   ├── Description.css
+    │   │   └── Description.jsx
+    │   ├── header
+    │   │   ├── Header.css
+    │   │   └── Header.jsx
+    │   └── portfolio_code_demo1.css
+    └── portfolio_code_demo2
+        ├── assets
+        │   ├── IMG195.jpg
+        │   ├── IMG196.jpg
+        │   ├── IMG197.jpg
+        │   ├── IMG198.jpg
+        │   ├── IMG199.jpg
+        │   └── IMG200.jpg
+        ├── card
+        │   ├── Card.css
+        │   └── Card.jsx
+        ├── cardinstruction
+        │   ├── Cardinstruction.css
+        │   └── Cardinstruction.jsx
+        └── tripcard
+            ├── Tripcard_raw.css
+            └── Tripcard_raw.jsx
 
-12 directories, 58 files
+22 directories, 89 files
 ```
 
 ## Getting Started 🚀

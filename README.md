@@ -20,45 +20,7 @@ ray_portfolio/
     ├── Codedemo1.js
     ├── Codedemo2.js
     ├── Portfolio.js
-    ├── assets
-    │   ├── 2021poker.png
-    │   ├── Anaconda.png
-    │   ├── Bash.png
-    │   ├── CherryPy.png
-    │   ├── Django.png
-    │   ├── Flask.png
-    │   ├── Github.png
-    │   ├── Githublogo.png
-    │   ├── Gmail.png
-    │   ├── Jupyter.png
-    │   ├── LinkedIn.png
-    │   ├── Mongodb.png
-    │   ├── Node.png
-    │   ├── Postgre.png
-    │   ├── Python.png
-    │   ├── R.png
-    │   ├── aboutme.png
-    │   ├── ai.jpg
-    │   ├── chipotlepolka.png
-    │   ├── css.png
-    │   ├── dinosaur1.jpg
-    │   ├── gatsby.png
-    │   ├── hkust.png
-    │   ├── html.png
-    │   ├── jquery.png
-    │   ├── js.png
-    │   ├── mega.jpg
-    │   ├── op.jpg
-    │   ├── pandas.png
-    │   ├── planet.jpeg
-    │   ├── project2.png
-    │   ├── project3.png
-    │   ├── project4.png
-    │   ├── project5.png
-    │   ├── project6.png
-    │   ├── react.png
-    │   ├── umd.png
-    │   └── utah.png
+    ├── assets  
     ├── components
     │   ├── aboutme
     │   │   ├── Aboutme.css

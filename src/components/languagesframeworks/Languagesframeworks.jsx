@@ -69,7 +69,7 @@ class Languagesframeworks extends React.Component {
 
         const Section = styled.div`
             height: 100%;
-            background-color: rgb(0, 31, 65);
+            background-color: #F2F2F2;
         `;
             //background-color: rgb(178, 34, 34)
 
@@ -78,8 +78,8 @@ class Languagesframeworks extends React.Component {
         `;
 
         const Title = styled.h1`
-            color: #FFFFFF;
-            background-color: rgb(0, 34, 65);
+            color: #000000;
+            background-color: #FFFFFF;
             text-align: center;
             padding: 20px;
             font-family: var(--font-family);
@@ -88,6 +88,7 @@ class Languagesframeworks extends React.Component {
             line-height: 45px;
             margin: 0 0;
         `;
+        //rgb(0, 34, 65)
 
         const LanguageSection = styled.div`
             display: flex;

@@ -6,7 +6,7 @@ import Html from '../../assets/html.png';
 import Css from '../../assets/css.png';
 import Javascript from '../../assets/js.png';
 import poker from '../../assets/2021poker.png';
-import project2 from '../../assets/project2.png';
+import ray_portfolio from '../../assets/ray_portfolio.png';
 import project3 from '../../assets/project3.png';
 import chipotlepolka from '../../assets/chipotlepolka.png';
 import Python from '../../assets/Python.png';
@@ -153,7 +153,7 @@ class Blog extends React.Component {
                 <ProjectsName>My Projects</ProjectsName>
                 <Container>
                     <MyProjectSection>
-                        <MyProject src={poker} href = "https://github.com/jr198868/2021_christmas_poker" alt="poker">
+                        <MyProject src={poker} href = "https://jr198868.github.io/2021_christmas_poker/" alt="poker">
                             2021 Christmas Poker
                             <p style = {{fontSize :'12px'}}>A romantic project for Wency Lee</p>
                                 <div className = 'Techstack__container' style = {{display: 'flex'}}>
@@ -164,7 +164,7 @@ class Blog extends React.Component {
                                 </div>
                         </MyProject>
 
-                        <MyProject src={project2} href = "" alt="project2">project2
+                        <MyProject src={ray_portfolio} href = "" alt="project2">project2
                                 <div className = 'Techstack__container' style = {{display: 'flex'}}>
                                     <Techstack src={ReactLogo} alt="HTML">ReactJS</Techstack>
                                     <Techstack src={Html} alt="HTML">HTML</Techstack>

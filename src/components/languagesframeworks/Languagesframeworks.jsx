@@ -79,7 +79,7 @@ class Languagesframeworks extends React.Component {
 
         const Title = styled.h1`
             color: #000000;
-            background-color: #FFFFFF;
+            background-color: #F2F2F2;
             text-align: center;
             padding: 20px;
             font-family: var(--font-family);

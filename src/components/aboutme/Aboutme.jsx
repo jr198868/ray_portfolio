@@ -39,7 +39,7 @@ class School extends React.Component {
 
       const Title = styled.h3`
           left: 20;
-          font-size: 24px;
+          font-size: 18px;
           margin-top: 2px;
             
         }

@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Alive Demo: https://main.dbx4d1npx5kez.amplifyapp.com/ 
 
 
 ## Project Structure 🚀

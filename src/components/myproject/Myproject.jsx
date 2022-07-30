@@ -164,7 +164,7 @@ class Blog extends React.Component {
                                 </div>
                         </MyProject>
 
-                        <MyProject src={ray_portfolio} href = "" alt="project2">project2
+                        <MyProject src={ray_portfolio} href = "" alt="project2">Raymond Jing Portfolio
                                 <div className = 'Techstack__container' style = {{display: 'flex'}}>
                                     <Techstack src={ReactLogo} alt="HTML">ReactJS</Techstack>
                                     <Techstack src={Html} alt="HTML">HTML</Techstack>

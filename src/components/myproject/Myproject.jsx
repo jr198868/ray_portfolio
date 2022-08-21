@@ -7,11 +7,14 @@ import Css from '../../assets/css.png';
 import Javascript from '../../assets/js.png';
 import poker from '../../assets/2021poker.png';
 import ray_portfolio from '../../assets/ray_portfolio.png';
-import project3 from '../../assets/project3.png';
+import SDEsalary from '../../assets/SDEsalarytool.jpg';
 import chipotlepolka from '../../assets/chipotlepolka.png';
 import Python from '../../assets/Python.png';
 import pandas from '../../assets/pandas.png';
 import Jupyter from '../../assets/Jupyter.png';
+import Mongodb from '../../assets/Mongodb.png';
+import Nodejs from '../../assets/Node.png';
+import Express from '../../assets/ExpressJS.png';
 // import project4 from '../../assets/project4.png';
 // import project5 from '../../assets/project5.png';
 // import project6 from '../../assets/project6.png';
@@ -173,7 +176,15 @@ class Blog extends React.Component {
                                 </div>
                         </MyProject>
 
-                        <MyProject src={project3} href = "" alt="project3">project3</MyProject>
+                        <MyProject src={SDEsalary} href = "" alt="project3">
+                            Software Developer Salary Tool
+                            <div className = 'Techstack__container' style = {{display: 'flex'}}>              
+                                <Techstack src={Mongodb} alt="Monogodb">MongoDB</Techstack>
+                                <Techstack src={Express} alt="Express">Express.js</Techstack>
+                                <Techstack src={ReactLogo} alt="HTML">React.js</Techstack>
+                                <Techstack src={Nodejs} alt="Node">Node.js</Techstack>
+                            </div>
+                        </MyProject>
 
                         <MyProject src={chipotlepolka} href = "https://github.com/jr198868/chipotlepolka" alt="chipotlepolka">
                             chipotlepolka

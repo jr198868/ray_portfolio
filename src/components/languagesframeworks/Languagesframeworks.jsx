@@ -17,6 +17,7 @@ import Rstudio from '../../assets/R.png';
 import Python from '../../assets/Python.png';
 import CherryPy from '../../assets/CherryPy.png';
 import Github from '../../assets/Github.png';
+import Express from '../../assets/ExpressJS.png';
 
 class Language extends React.Component {
     render() {
@@ -110,7 +111,7 @@ class Languagesframeworks extends React.Component {
                         <Language src={Rstudio} alt="R studio">R studio</Language>
                         <Language src={ReactLogo} alt="React">React</Language>
                         <Language src={CherryPy} alt="CherryPy">CherryPy</Language>
-                        <Language src={Flask} alt="Flask">Flask</Language>
+                        <Language src={Express} alt="Express">Express</Language>
                         <Language src={NodeLogo} alt="Node">Node</Language>
                         <Language src={Jupyter} alt="Jupyter">JupyterLab</Language>
                         <Language src={Django} alt="Django">Django</Language>

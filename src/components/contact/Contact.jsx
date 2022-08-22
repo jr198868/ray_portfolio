@@ -12,7 +12,8 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="paralax-mf footer-paralax bg-image sect-mt4 route"
-         style={{ backgroundImage: "url(" + background + ")" }}
+        //  style={{ backgroundImage: "url(" + background + ")" }}
+         style={{ backgroundColor: `rgba(0, 40, 83, 1)` }}
       >
         <div id="contact" className="contactcontainer">
 
